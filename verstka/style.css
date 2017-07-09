@@ -1,0 +1,72 @@
+body {
+    color: #404040;
+    background: #f9f9f9;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-image: url("images/header-bg.jpg");
+    color: #fff;
+    text-align: center;
+}
+
+.subscribe {
+    background: #000;
+    opacity: 0.65;
+    display: table;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.subscribe input[type="text"], .subscribe input[type="email"] {
+    padding: 12px 20px 13px 20px;
+    border: 0;
+    width: 320px;
+    margin-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.subscribe input {
+    float: left;
+}
+
+.subscribe input[type="submit"] {
+    background: #ae2c25;
+    border: 0;
+    color: #fff;
+    font-size: 1.25em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 10px 35px;
+}
+
+h1 {
+    font-size:xx-large;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+img {
+    margin: 15px;
+}
+
+.content {
+
+}
+
+article.content img {
+    float: left;
+}
+
+article.content div p {
+    float: right;
+    width: 84%;
+    margin-right: 30px;
+}
+
+.clearfix {
+    clear: both;
+}
